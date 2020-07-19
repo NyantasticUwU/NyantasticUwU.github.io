@@ -2,6 +2,7 @@
 console.log("Welcome!");
 
 // Loading screen
-$(window).on("load", function(){
+$(window).on("load", function () {
     $("#LoadingScreen").fadeOut("slow");
+    $("#LandingPage").fadeIn("slow");
 });
